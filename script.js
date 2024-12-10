@@ -2,7 +2,7 @@ gebi=function(id) { return document.getElementById(id);};
 log=console.log.bind(window.console);
 
 web={model:{},view:{},controller:{},};
-arrs='header,footer,hero,clients,about,stats,services,features,portofolio,pricing,faq,team,call,testimonial,posts,contact,single'.split(',');
+arrs='header,footer,hero,clients,about,stats,services,features,portofolio,pricing,faq,team,call,testimonial,posts,kontak,single'.split(',');
 for (let i in arrs){ node=arrs[i];
 web.model[node]={id:node,data:[]};
 web.view[node]=function(arr){out=arr.id; return out;};
